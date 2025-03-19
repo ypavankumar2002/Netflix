@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN-FORM</title>
+    <link rel="icon" href="./images/NET_ICON.webp">
+    <link rel="stylesheet" href="./Bootsrtap/bootstrap-4.6.2-dist/css/bootstrap.css">
+    <script src="./Bootsrtap/bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <script src="./Bootsrtap/bootstrap-4.6.2-dist/js/jquery.js"></script>
+
+    <style>
+        body{
+            margin: 30px;
+            /* background: linear-gradient(  to right ,orange,red,white,yellow,green,yellow); */
+          background-image: url('./images/bg1.jpg');
+          background-size: 100% 600px;
+          background-repeat: no-repeat;
+            
+        }
+        #bodd{
+
+            background-image: url('./images/img3.jpg');
+            background-size: 100% 250px;
+
+        }
+/* #formm{
+    margin-left: 300px;
+} */
+      
+#mobile{
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#pass{
+    border-radius: 5px;
+    border: 2px solid yellow;
+    background-color: black;
+    color: white;
+  
+}
+/* #butt{
+    margin-left: 40px;
+} */
+
+    </style>
+</head>
+<body class="container">
+
+ <div id="log">
+   
+    <div class="card">
+        <div class="card-header text-danger display-4 text-center " style="background-color: yellow;">
+               >> NETFLIX LOGIN <<
+        </div>
+        <div class="card-body text-center" id="bodd">
+            <form action="./login_success.html" id="formm" name="form1" onsubmit="return(passvalid())">
+               <div >
+                <label for="mobile" style="color: white;">MOBILE NO :</label>
+                <input type="text" name="" id="mobile" placeholder="Enter Mobile Number" ><br><br>
+               </div>
+                <div>
+                    <label for="pass" style="color: white;">PASSWORD:</label>
+                <input type="password" name="" id="pass" placeholder="Enter Password"><br><br>
+            
+    <input type="checkbox" name="checkbox" id="check" onclick="show()"><small style="color: white;"> ShowPassword</small>
+                </div><br>
+<input type="submit"  style="width: 230px; background-color: red; color: white; border-radius: 10px; height: 40px;"  >
+            
+             
+            </form>
+        </div>
+
+        <div class="card-footer text-center">
+            <a href="#" style="text-decoration: none;"><small>REGISTER ?</small></a>
+            <a href="#" style="visibility: hidden;"> pavan </a>
+            <a href="" style="text-decoration: none;"><small>FORGET PASSWORD !</small></a>
+        </div>
+
+    </div>
+ </div>   
+<!--  
+ <div id="butt">
+    <button class="btn btn-success" style="width: 230px;" onclick="return(passvalid())" >
+    <a href="./beachh.webp" style="text-decoration: none; color: white;"> LOGIN  </a>
+    </button>
+  </div><br><br> -->
+ <script src="./login_valid.js"></script>
+</body>
+</html>
