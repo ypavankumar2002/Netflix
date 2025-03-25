@@ -19,7 +19,7 @@ function passvalid(){
     }
         
 if(mob.length == 10 && valid.length >= 6 ){
-    alert('login success ! 😎😎')
+    alert('Signup success ! 😎😎')
     let song=document.createElement('audio')
     song.setAttribute('src','Netflix sound.mp3')  
     
@@ -55,3 +55,6 @@ let audio1 = ()=>{
 
 
 
+function msg(){
+    alert('Signup has implemented ! Try it 😉😉')
+}
