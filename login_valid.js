@@ -56,5 +56,5 @@ let audio1 = ()=>{
 
 
 function msg(){
-    alert('Signup has implemented ! Try it 😉😉')
+    alert('Signup form has implemented ! Try it 😉😉')
 }
